@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@500&display=swap");
+
+body {
+  margin-left: 10%;
+  padding: 0px;
+  width: 80%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.logo {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+.logo-header {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120px;
+  margin: 64px auto;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#articles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 36px;
+  gap: 40px;
+  width: 1120px;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+
+#title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin: 0;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.content-header p span {
+  opacity: 0.5;
+}
+
+.articles_info_header p img {
+  opacity: 0.5;
+}
+.articles img {
+  display: flex;
+  gap: 100px;
+}
+
+.content-footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(8, 30, 52, 0.12),
+      rgba(8, 30, 52, 0.12)
+    ),
+    #fffbfe;
+  border: none;
+  width: 107px;
+  height: 30px;
+  border-radius: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px 0px 30px 0px;
+  gap: 325px;
+}
+
+.content-footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 330px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.content-footer-left p {
+  opacity: 0.5;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 778px 160px 32px;
+  gap: 32px;
+}
+
+.imgserver {
+  width: 265px;
+  height: 265px;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#button {
+  width: max-content;
+}
+
+.squares {
+  display: flex;
+  column-gap: 14px;
+  justify-content: flex-end;
+}
+
+.square {
+  background: #E1E0E6;
+  width: 20px;
+  height: 20px;
+}
+
+.credits {
+  display: flex;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: #081E34;
+  opacity: 0.5;
+  margin-top: 778px;
+}
+
+.credits a {
+  color: #081E34;
+  opacity: 1;
+}
+
+.end-footer {
+  margin: 32px 0;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #081E34;
+}
